@@ -4,12 +4,44 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+ .background {
+ background: linear-gradient(135deg, #007bec 0%, #ad00ea 100%); 
+    animation: animateGradient 5s infinite;
+    background-size: 200% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} 
+
 input{
     color: antiquewhite;
 }    
 input:focus{
     color: rgb(255, 255, 255);
 }
-.button-c{
-    background-color: rgb(219, 219, 219);
+
+.in[type="text"] {
+    display: block;
+    color: rgb(34, 34, 34);
+    background: linear-gradient(142.99deg, rgba(217, 217, 217, 0.63) 15.53%, rgba(243, 243, 243, 0.63) 88.19%);
+    box-shadow: 0px 12px 24px -1px rgba(0, 0, 0, 0.18);
+    border-color: rgba(7, 4, 14, 0);
+    border-radius: 50px;
+    block-size: 20px;
+    margin: 7px auto;
+    padding: 18px 15px;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.in[type="text"]:hover {
+    width: 240px;
+}
+
+.in[type="text"]:focus {
+    width: 280px;
 }
