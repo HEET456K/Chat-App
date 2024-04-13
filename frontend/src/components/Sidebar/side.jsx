@@ -1,4 +1,4 @@
-import Conversations from "./Conversations";
+import Conversations from "./allConversation";
 import LogoutButton from "./LogoutButton";
 import SearchInput from "./SearchInput";
 
